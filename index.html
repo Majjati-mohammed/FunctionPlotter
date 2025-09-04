@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tracer une fonction</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <label>Type de fonction : </label>
+        <select id="opt" name="opt">
+            <option value="lineaire">Lineaire</option>
+            <option value="trigonometrique">Trigonometrique,Logarithmique ou autre</option>
+          </select><br><br>
+
+       
+       <label>la fonction : </label>
+        <input type=text value="" placeholder="Entrer une fonction" id="txt" ><br>
+        <input type=button id="tracer"  onclick=func() value="Tracer"><br><br>
+        <canvas id="myCanvas" width="500" height="500" style="border:1px solid grey"></canvas>
+        
+        
+        <script src="Script.js"></script>
+       
+    </body>
+</html>
